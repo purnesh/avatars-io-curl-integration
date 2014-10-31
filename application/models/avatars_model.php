@@ -10,7 +10,15 @@
 			return $url;
 		}
 		
-		
+		public function facebook($id){
+			$url = "http://avatars.io/facebook/".$id;
+			return $url;
+		}
+
+		public function instagram($id){
+			$url = "http://avatars.io/instagram/".$id;
+			return $url;
+		}
 		
 		public function sized($service, $id, $size){
 			$url = "http://avatars.io/".$service."/".$id."?size=".$size;
