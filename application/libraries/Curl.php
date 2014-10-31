@@ -69,6 +69,9 @@ class Curl {
 
 			$this->{$method}($params);
 		}
+			
+		//Added support for image rendering
+		$options['RETURNTRANSFER'] = TRUE;
 
 		// Add in the specific options provided
 		$this->options($options);
