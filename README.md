@@ -1,5 +1,6 @@
-avatars-io-curl-integration
-===========================
+Code Igniter wrappers for Avatars.io
+====================================
+Note: There was an error in naming the repository. I am extremely sorry for inconvenience.
 
 Facilitating Avatars.io wrappers for Code Igniter.
 
