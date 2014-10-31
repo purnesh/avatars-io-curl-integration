@@ -20,14 +20,14 @@ Usage
 Use the following methods in your controllers in order to retrieve the URLs for respective avatars of your users.
 
 - For twitter's avatar url for a particular user
-$this->Avatars_model->twitter($user_id);
+> $this->Avatars_model->twitter($user_id);
 
 - For instagram's avatar url for a particular user
-$this->Avatars_model->instagram($user_id);
+> $this->Avatars_model->instagram($user_id);
 
 - For facebook's avatar url for a particular user
-$this->Avatars_model->facebook($user_id);
+> $this->Avatars_model->facebook($user_id);
 
 - For Avatars of different sizes:
 Note: The availability of different sizes of avatars is subject to availability, depending upon the resource server, i.e. Facebook, Instagram or Twitter in this case.
-$this->Avatars_model->sized($service, $user_id, $size);
+> $this->Avatars_model->sized($service, $user_id, $size);
