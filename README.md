@@ -1,4 +1,4 @@
-Code Igniter wrappers for Avatars.io
+Code Igniter wrappers for Avatars.io [UNSUPPORTED]
 ====================================
 Note: There was an error in naming the repository. I am extremely sorry for inconvenience.
 
